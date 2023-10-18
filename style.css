@@ -1,0 +1,280 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+ /* Imported Roboto and Poppins font from fonts.google.com */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* declaring some global varibales to make editing easy */
+ :root {
+     --primary-text-color: #183b56;
+     --secondary-text-color: #577592;
+     --accent-color: #1d69a3;
+     --padding-inline-section: 20px;
+ }
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     color: var(--primary-text-color);
+ }
+
+ h1 {
+     font-size: 3rem;
+  
+ }
+
+ h2 {
+     font-size: 2rem;
+
+ }
+
+ h3 {
+     font-size: 1.5rem;
+ }
+
+ p {
+     font-size: 1.25rem;
+     font-family: 'Roboto', sans-serif;
+     color: var(--secondary-text-color);
+     line-height: 1.8rem;
+ }
+
+ a {
+     text-decoration: none;
+     display: inline-block;
+     color: #fff;
+ }
+
+ /* Basic styling done for the clone landing page. */
+ .banner {
+      /* position: fixed; 
+      width: 100%; */
+     text-align: center;
+     padding: 10px 10px;
+     background-image: url("assets/asset 32.png");
+     background-color: #4dadf7;
+     background-size: 300px;
+ }
+ /* styling of header ends */
+ #feature1{
+    margin: 30px 50px;
+
+ }
+ 
+ #feature1text{
+ padding-top: 80px;
+ }
+ #asset2{
+    float: right;
+    width:500px;
+    margin:30px;
+ }
+ #get_started{
+    margin-top: 20px;
+ }
+ #a1{
+background-color: #4dadf7;
+font-size: 1rem;
+border: none;
+text-align: center;
+width: 200px;
+height: 50px;
+padding: 20px;
+ }
+ #s1{
+    margin: 2px;
+    display: block;
+    width: 200px;
+    font-size:0.75rem;
+    text-align: center;
+ }
+ /* styling of feature1 ends */
+ #companies{
+    clear: right;
+    margin-top: 150px;
+    margin-left: 30px;
+   margin-right: 30px;
+   /* The extra top  margin had to be defined in this case because of the image floating */
+
+ }
+ #p1{
+    text-align: center;
+  
+ }
+ #company_logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ #asset3, #asset4, #asset5, #asset6, #asset7, #asset8, #asset9{
+width: 100px;
+margin: 20px;
+
+ }
+
+
+ /* styling of comapnies section ends */
+ #feature2{
+    background-image: url("assets/asset 41.png");
+    background-color: #4dadf7;
+    background-size: 1270px;
+margin-top: 80px;
+padding-left: 50px;
+padding-right: 50px;
+ }
+ 
+ .designerbutton{
+    border: 0.5px solid black;
+    padding: 5px;
+    
+ 
+    text-align: center;
+
+ }
+ #a2{
+    color: black;
+ }
+ #d1f2{
+    text-align: center;
+ }
+ .flex{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;;
+ }
+ .child{
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+ }
+ /* styling of feature2 ends */
+ #feature3{
+   margin: 30px 50px;
+ }
+ #asset18{
+   float:left;
+   width:500px;
+   margin:30px;
+ }
+ #f3text{
+   padding-top:80px;
+   
+ }
+ /* styling of feature3 ends */
+ #feature4{
+   
+   clear:left;
+   margin-top:150px ;
+   margin-left: 30px;
+   margin-right: 30px;
+ }
+ #asset21{
+   float:right;
+   width:500px;
+   margin:30px;
+ }
+ #f4text{
+   padding-top:80px;
+   
+ }
+ /* styling of feature4 ends */
+ #feature5{
+   
+   clear:right;
+   margin-top:150px ;
+   margin-left: 30px;
+   margin-right: 30px;
+ }
+ #asset24{
+   float:left;
+   width:500px;
+   margin: 30px;
+ }
+ #f5text{
+   padding-top:80px;
+   
+ }
+ /* Styling of feature5 ends */
+ #flashcards{
+   clear:left;
+   text-align:center; 
+   margin-top:150px;
+   margin-left: 30px;
+   margin-right: 30px; 
+ }
+ #fch4{
+   margin:20px;
+ }
+ #card1{
+ text-align: center;
+   width: 250px;
+   height: 250px;
+   background-image: url("assets/asset 36.jpeg");
+   color: white;
+ }
+ #card2{
+   text-align: center;
+   width:250px;
+   height: 250px;
+   background-image: url("assets/asset 37.jpeg");
+   color: white;
+ }
+ #card3{
+   text-align: center;
+   width: 250px;
+   height: 250px;
+   background-image: url("assets/asset 38.jpeg");
+   color: white;
+ }
+ #card4{
+   text-align: center;
+   width: 250px;
+   height: 250px;
+   background-image: url("assets/asset 39.jpeg");
+   color: white;
+   
+ }
+ /* styling of flashcards ends */
+/* main section ends */
+#mainfooter{
+   overflow: auto;
+   height: 300px ;
+   color: white;
+   background-color: #003262;
+   text-align: center;
+   margin-top:50px;
+   padding: 50px;
+}
+#mfh3{
+   margin:20px;
+
+}
+#mfp{
+margin:20px;
+}
+/* styling of main footer ends */
+#subfooter{
+background-color: #F0F8FF;
+padding: 50px;
+}
+
+#asset1{
+   
+   width: 200px;
+}
+/* styling of subfooter ends */
+
+#navfooter{
+   text-align: center;
+   padding: 20px;
+}
+.nfsp{
+padding: 20px;
+
+}
+.a2{
+   color: black;
+}
