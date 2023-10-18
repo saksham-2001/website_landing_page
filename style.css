@@ -53,7 +53,7 @@
       width: 100%; */
      text-align: center;
      padding: 10px 10px;
-     background-image: url("assets/asset 32.png");
+     background-image: url("asset 32.png");
      background-color: #4dadf7;
      background-size: 300px;
  }
@@ -117,7 +117,7 @@ margin: 20px;
 
  /* styling of comapnies section ends */
  #feature2{
-    background-image: url("assets/asset 41.png");
+    background-image: url("asset 41.png");
     background-color: #4dadf7;
     background-size: 1270px;
 margin-top: 80px;
@@ -212,28 +212,28 @@ padding-right: 50px;
  text-align: center;
    width: 250px;
    height: 250px;
-   background-image: url("assets/asset 36.jpeg");
+   background-image: url("asset 36.jpeg");
    color: white;
  }
  #card2{
    text-align: center;
    width:250px;
    height: 250px;
-   background-image: url("assets/asset 37.jpeg");
+   background-image: url("asset 37.jpeg");
    color: white;
  }
  #card3{
    text-align: center;
    width: 250px;
    height: 250px;
-   background-image: url("assets/asset 38.jpeg");
+   background-image: url("asset 38.jpeg");
    color: white;
  }
  #card4{
    text-align: center;
    width: 250px;
    height: 250px;
-   background-image: url("assets/asset 39.jpeg");
+   background-image: url("asset 39.jpeg");
    color: white;
    
  }
