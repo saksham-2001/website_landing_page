@@ -57,6 +57,11 @@
      background-color: #4dadf7;
      background-size: 300px;
  }
+nav{
+ text-align: center;
+ padding: 20px;
+ background-color: #F8F8FF;
+}
  /* styling of header ends */
  #feature1{
     margin: 30px 50px;
