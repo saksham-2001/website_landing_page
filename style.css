@@ -13,12 +13,16 @@
      --secondary-text-color: #577592;
      --accent-color: #1d69a3;
      --padding-inline-section: 20px;
+     --feature-image-width: 500px;
+    --feature-image-margin: 30px;
+  
  }
 
  body {
      font-family: 'Poppins', sans-serif;
      color: var(--primary-text-color);
  }
+
 
  h1 {
      font-size: 3rem;
@@ -56,6 +60,7 @@
      background-image: url("asset 32.png");
      background-color: #4dadf7;
      background-size: 300px;
+ 
  }
 nav{
  text-align: center;
@@ -76,8 +81,8 @@ nav{
  }
  #asset2{
     float: right;
-    width:500px;
-    margin:30px;
+    width: var(--feature-image-width);
+    margin: var(--feature-image-margin);
  }
  #get_started{
     margin-top: 20px;
@@ -164,8 +169,8 @@ padding-right: 50px;
  }
  #asset18{
    float:left;
-   width:500px;
-   margin:30px;
+      width: var(--feature-image-width);
+    margin: var(--feature-image-margin);
  }
  #f3text{
    padding-top:80px;
@@ -181,8 +186,8 @@ padding-right: 50px;
  }
  #asset21{
    float:right;
-   width:500px;
-   margin:30px;
+    width: var(--feature-image-width);
+    margin: var(--feature-image-margin);
  }
  #f4text{
    padding-top:80px;
@@ -198,8 +203,8 @@ padding-right: 50px;
  }
  #asset24{
    float:left;
-   width:500px;
-   margin: 30px;
+      width: var(--feature-image-width);
+    margin: var(--feature-image-margin);
  }
  #f5text{
    padding-top:80px;
@@ -285,4 +290,10 @@ padding: 20px;
 }
 .a2{
    color: black;
+}
+
+/*media quueries*/
+@media and screen(width<=1024px){
+   --feature-image-width: 300px;
+    --feature-image-margin: 15px;
 }
