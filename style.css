@@ -293,7 +293,9 @@ padding: 20px;
 }
 
 /*media quueries*/
-@media and screen(width<=1024px){
-   --feature-image-width: 300px;
+@media and screen(max-width: 1024px){
+   :root{
+    --feature-image-width: 300px;
     --feature-image-margin: 15px;
+   }
 }
