@@ -11,10 +11,13 @@
  :root {
      --primary-text-color: #183b56;
      --secondary-text-color: #577592;
-     --accent-color: #1d69a3;
-     --padding-inline-section: 20px;
      --feature-image-width: 500px;
     --feature-image-margin: 30px;
+       --card-width: 250px;
+     --card-height: 250px;
+     --card-color: white;
+     --card-text-align: center;
+  
   
  }
 
@@ -65,7 +68,7 @@
 nav{
  text-align: center;
  padding: 20px;
- background-color: #F8F8FF;
+  background-color :#F0F8FF;
 }
 .sp{
  padding: 60px;
@@ -95,6 +98,7 @@ text-align: center;
 width: 200px;
 height: 50px;
 padding: 20px;
+  border-radius: 10px;
  }
  #s1{
     margin: 2px;
@@ -130,18 +134,22 @@ margin: 20px;
 
  /* styling of comapnies section ends */
  #feature2{
-    background-image: url("asset 41.png");
-    background-color: #4dadf7;
-    background-size: 1270px;
+   background-color: #F0F8FF;
+    border-radius: 1000px;
 margin-top: 80px;
 padding-left: 50px;
 padding-right: 50px;
+  padding-bottom:100px;
+ }
+ #f2h2{
+   padding: 100px;
  }
  
  .designerbutton{
     border: 0.5px solid black;
     padding: 5px;
-    
+    border-radius: 10px;
+    color: black;
  
     text-align: center;
 
@@ -165,7 +173,9 @@ padding-right: 50px;
  }
  /* styling of feature2 ends */
  #feature3{
-   margin: 30px 50px;
+ margin-left: 50px;
+  margin-right: 50px;
+margin-top:100px;
  }
  #asset18{
    float:left;
@@ -222,32 +232,36 @@ padding-right: 50px;
    margin:20px;
  }
  #card1{
- text-align: center;
-   width: 250px;
-   height: 250px;
+  text-align: var(--card-text-align);
+   width: var(--card-width);
+   height: var(--card-height);
+   color:var(--card-color);
    background-image: url("asset 36.jpeg");
-   color: white;
+ 
  }
  #card2{
-   text-align: center;
-   width:250px;
-   height: 250px;
+  text-align: var(--card-text-align);
+   width: var(--card-width);
+   height: var(--card-height);
+   color:var(--card-color);
    background-image: url("asset 37.jpeg");
-   color: white;
+   
  }
  #card3{
-   text-align: center;
-   width: 250px;
-   height: 250px;
+  text-align: var(--card-text-align);
+   width: var(--card-width);
+   height: var(--card-height);
+   color:var(--card-color);
    background-image: url("asset 38.jpeg");
-   color: white;
+
  }
  #card4{
-   text-align: center;
-   width: 250px;
-   height: 250px;
+  text-align: var(--card-text-align);
+   width: var(--card-width);
+   height: var(--card-height);
+   color:var(--card-color);
    background-image: url("asset 39.jpeg");
-   color: white;
+
    
  }
  /* styling of flashcards ends */
@@ -291,5 +305,26 @@ padding: 20px;
 .a2{
    color: black;
 }
+/* media queries */
+@media screen and (max-width: 1024px){
+   :root{
+      --feature-image-width:200px;
+      --feature-image-margin:15px;
+   }
+   .sp{
+      padding: 5px;
+   }
+   #asset2, #asset18, #asset21, #asset24{
+      float: none;
+   }
+   #a21{
+      display: flex;
+      justify-content: end;
+   }
+   
 
+   .nfsp{
+      display: block;
+   }
+} 
 
