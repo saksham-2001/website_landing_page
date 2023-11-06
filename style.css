@@ -312,8 +312,11 @@ padding: 20px;
       --feature-image-margin:15px;
    }
    .sp{
-      padding: 5px;
+      padding: 20px;
    }
+ .spm{
+  display: none;
+ }
    #asset2, #asset18, #asset21, #asset24{
       float: none;
    }
