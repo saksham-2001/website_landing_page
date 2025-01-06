@@ -90,15 +90,20 @@ nav{
  #get_started{
     margin-top: 20px;
  }
- #a1{
-background-color: #4dadf7;
-font-size: 1rem;
-border: none;
-text-align: center;
-width: 200px;
-height: 50px;
-padding: 20px;
-  border-radius: 10px;
+  #a1 {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+
+ #a1:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
  }
  #s1{
     margin: 2px;
@@ -154,8 +159,18 @@ padding-right: 50px;
     text-align: center;
 
  }
- #a2{
+ #a2 {
     color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ #a2:hover{
+   font-size: 19px;
+   
  }
  #d1f2{
     text-align: center;
